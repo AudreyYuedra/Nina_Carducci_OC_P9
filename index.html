@@ -55,8 +55,7 @@
    <body>
       <div class="top-header">
          <h1 id="name" class="name"><a href="#name">Nina Carducci</a></h1>
-         <!-- modifié -->
-         <div class="nav">
+         <nav class="nav">
             <ul>
                <li><a href="#about">À propos</a></li>
                <li><a href="#gallery">Galerie</a></li>
@@ -66,7 +65,7 @@
                   <a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"> <img src="assets/images/instagram.png" alt="logo instagram" /></a>
                </li>
             </ul>
-         </div>
+         </nav>
       </div>
 
       <header id="header">
@@ -129,23 +128,23 @@
             <img loading="lazy" src="./assets/images/nina.webp" alt="portrait de Nina Carducci" />
          </div>
 
-         <div id="about-me">
-            <h2 class="about-me__title">À propos de moi</h2>
+         <article id="about-me">
+            <h2 class="about-me__title">À propos de moi, votre photographe</h2>
             <p class="about-me__introduction">
                Devenir photographe était pour moi une évidence. Comme si j’y étais prédestinée. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce
                qui me fait vibrer.
             </p>
             <p>
-               Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont
-               importantes à nos yeux, ou le partager au plus grand nombre. C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre
-               ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.
+               Nous passons notre vie à chercher le bonheur, et lorsque nous le touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont
+               importantes à nos yeux, ou le partager au plus grand nombre. C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, de mon approche, de ma technique.
+               Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.
             </p>
-         </div>
+         </article>
       </section>
 
       <section id="gallery">
          <h2 class="title">Portfolio</h2>
-         <div class="container py-3">
+         <article class="container py-3">
             <div class="gallery" style="display: none">
                <img data-gallery-tag="Concert" class="gallery-item" loading="lazy" src="./assets/images/gallery/concerts/aaron-paul_w1920.webp" alt="photographie d'un concert d'Aaron Paul" />
                <img data-gallery-tag="Entreprises" class="gallery-item" loading="lazy" src="./assets/images/gallery/entreprise/ali-morshedlou_w1920.webp" alt="portrait d'Ali Morshedlou" />
@@ -175,9 +174,9 @@
                   alt="photo d'une salariée en train de rire"
                />
             </div>
-         </div>
+         </article>
 
-         <div class="quote">
+         <article class="quote">
             <figure>
                <blockquote>
                   <h3 class="quote__text">
@@ -187,13 +186,13 @@
                </blockquote>
                <figcaption class="quote__author">- Richard Avedon</figcaption>
             </figure>
-         </div>
+         </article>
       </section>
 
       <section id="services">
-         <h2 class="title">Mes services</h2>
+         <h2 class="title">Mes services de photographe</h2>
          <div class="container">
-            <div class="service">
+            <article class="service">
                <div class="service__description">
                   <h3>Shooting photo</h3>
                   <p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos</p>
@@ -202,20 +201,20 @@
                   <p>350€/demi-journée</p>
                   <span>Matériel, déplacement inclus</span>
                </div>
-            </div>
+            </article>
 
-            <div class="service">
+            <article class="service">
                <div class="service__description">
-                  <h3>Retouches</h3>
+                  <h3>Retouches Photos</h3>
                   <p>Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publications</p>
                </div>
                <div class="service__price">
                   <p>50€/photo</p>
                   <span>2 AR par photo</span>
                </div>
-            </div>
+            </article>
 
-            <div class="service">
+            <article class="service">
                <div class="service__description">
                   <h3>Album photos</h3>
                   <p>Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé</p>
@@ -224,7 +223,7 @@
                   <p>400€ album A4</p>
                   <span>30 pages recto/verso</span>
                </div>
-            </div>
+            </article>
          </div>
       </section>
 
@@ -241,7 +240,7 @@
          <div class="container">
             <div class="form-container">
                <h2>Une question ? Une demande de devis ?</h2>
-               <p>N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
+               <p>N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures.</p>
 
                <form action="#" method="post">
                   <label for="nom">Nom</label>
@@ -259,9 +258,9 @@
          </div>
       </footer>
 
-      <script defer src="./assets/bootstrap/bootstrap.bundle.js"></script>
+      <script defer src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
       <script defer src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-      <script defer src="./assets/maugallery.js"></script>
+      <script defer src="./assets/maugallery.min.js"></script>
       <script defer src="./assets/scripts.js"></script>
    </body>
 </html>
